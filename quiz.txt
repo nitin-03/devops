@@ -1,0 +1,665 @@
+---------------------CO1-----------------
+---------------------GIT and BitBucket-----
+1. What is the default text editor for the Bash shell with a Windows-based Git install?
+
+A. Emacs
+ B. Vim
+C. Notepad++
+D. Bash
+
+Ans: B
+
+2. Before you install Git, which of the following prerequisite products must be present and configured on your local OS?
+
+A. Jakarta Enterprise Edition web profile compliant server
+B. Java Development Kit 1.8 or newer
+C. Apache Maven
+D. Nonting is needed
+
+Ans: D
+
+3. After you install Git and prior to issuing the first commit, which two configuration properties does the tool expect to be configured?
+
+A. username and password
+B. username and email address
+C. email address and password
+D. username and IP address
+
+Ans:  B
+
+4. Which of the following is not a Git configuration scope?
+
+A. Local
+B. System
+C. Global
+D.  User
+
+Ans:  D
+
+5. Which file can you configure to ensure that certain file types are never committed to the local Git repository?
+
+A.  .gitignore
+B. ignore.git
+C. git.ignore
+D. gitignore.txt
+
+Ans:  A
+
+6. Bitbucket is web-based version control.
+
+A. Yes
+B. No
+C. Both A & B
+D. None A & B
+
+Ans: A
+
+7.  Bitbucket caters __________ private repositories.
+
+A. Unlimited
+B. Limited
+C. Both A & B
+D. Only B
+
+Ans: C
+
+8. The number of Deployment Models supported by Bitbucket is __________.
+
+A. 3
+B. 1
+C. 4
+D. 1 & 3
+
+Ans: A
+
+9. The Bitbucket server is a combination of Git and Web Interface developed using __________.
+
+A.  Kotlin
+B. Python
+C. Java
+D. C
+
+Ans: C
+
+10. Which of the following is a deployment model of Bitbucket?
+
+A.  Bitbucket DataCenter
+B.  Bitbucket Cloud
+C.  Bitbucket Server
+D. All The Above
+
+Ans: D
+
+11. Bitbucket __________ automation of CI/CD pipeline.
+
+A. does not allow
+B. allows
+C. Only A
+D. None of the above
+
+Ans: B
+
+12. DevOps is an extension of ...............
+
+A. Quality Assurance
+B. Waterfall
+C. Agile
+D. All the above 
+
+Ans: C
+
+13. Which of the following team gets priority in DevOps
+
+A. Operational Team
+B.  Development Team
+C. None of the above
+D. Both A & B
+
+Ans: D
+
+14. What is trunk in trunk based DevOps delivery?
+
+A. Delopers collaborate on code in a single branch called "trunk".
+B.  Runk is a special private branch in a developer workstation.
+C.  Trunk is the process of merging code in DevOps deliveries.
+D. All the above.
+
+Ans:  A
+
+15. Which command will let you know who modified a file?
+
+A. $ git diff
+B. $ git log
+C. $ git blame
+D. $ git log -sourcw
+
+Ans: C
+
+16. git fetch + git merge equal to?
+
+A.  $ git push
+B.  $ git pull
+C.  $ git branch
+D. None of the above
+
+Ans: B
+
+17. What defines the DevOps process loop?
+
+A. Plan, build, release, deploy, monitor
+B. Code, test, deploy, operate, monitor, plan
+C. Plan, code, build, test, deploy, operate, monitor, plan
+D. Build, test, release, monitor
+
+Ans: C 
+
+18. DevOps is an official framework.
+
+A. True
+B. False
+C. Cannot Say
+D. May be A 
+
+Ans: B 
+
+19. What cultural shift does DevOps describe?
+
+A. Close collaboration between developers and IT operations staff
+B. Sharing of responsibilities across departmental lines
+C. The dissolution of departmental silos
+D. All the above
+
+Ans: D
+
+20. Which of the followings are the popular tools for DevOps?
+
+A.  Jenkins & Monit
+B.  Nagios & ELK
+C.  Jenkins & Ansible
+D. All the above
+
+Ans: D
+
+----------------CO2-----------------
+--------------Terraform-------------
+1.What is the file format of Terraform code files?
+a.JSON b.XML c.YAML d.HTML  ans:c
+2.Which of the following files are processed by terraforming?
+A. .tf and .tf.json
+B. .tf only
+C. .tm only
+D. all text files
+ans:A
+
+3.Terraform is a ____________ language.
+A. Objective
+B. Declarative
+C. Functional
+D. Descriptive 
+ans: c
+
+4.Terraform is written in ________.
+A. Angular
+B. C/C++
+C. Go Programming
+D. Python
+ans:c
+
+5.What command must be run to configure the backend in Terraform?
+A. terraform fmt
+B. terraform plan
+C. terraform init
+D. terraform backend
+ans:c
+
+6.Terraform is a__________.
+A. IaaS
+B. PaaS
+C. IAC
+D. Saas
+ans:c
+
+7.Two things you need to connect to your AWS infrastructure using Terraform code (in terms of
+credentials):
+A. Secret access key only
+B. Access key ID only
+C. Access key ID and Secret access key
+D. Access key ID, Secret access key and root username
+ans:a
+
+8.Terraform is a .............
+A. Code Software
+B. Text Editor
+C. Programming Language
+D. Photo Editor
+ans:a
+
+9.The Terraform supports which of the following operating system?
+A. Linux
+B. MacOs
+C. Windows
+D. All of the Above
+ans:d
+
+10.. Terraform configuration files must always be UTF-8 encoded.
+A. True
+B. False
+ans:a
+
+
+
+
+----------jenkins----------
+1. What is the requirement for using Jenkins?
+A. A source code repository which is accessible, for instance, a Git repository
+B. A working build script, e.g., a Maven script, checked into the repository
+C. Both of these
+D. None
+
+ans:c
+2. What are the useful plugins in Jenkin?
+A. Maven 2 project
+B. Amazon EC2
+C. HTML publisher
+D. All
+
+ans:d
+3. Which file is used to define dependency in maven?
+A. build.xml
+B. pom.xml
+C. dependency.xml
+D. version.xml
+
+ans:b
+4. Which command can be used to check maven version?
+A. mvn -ver
+B. maven -ver
+C. maven -version
+D. mvn -version
+
+ans:d
+5. How can we secure Jenkins?
+A. Global security should be enabled
+B. Jenkins should be integrated with appropriate plugins
+C. Automate the process of setting rights and privileges
+D. All of the above
+
+ans:d
+6.Which maven plugin creates the project structure?
+A. dependency
+B. properties
+C. archetype
+D. execution
+
+ans:c
+7.Which of the following attributes does Jenkins possess?
+A. To notify developers about build report success or failure, it is integrated with LDAP mail server.
+B. For each code commit changes an automatic build report notification generates.
+C. Build failures are cached at integration stage.
+D. All of the above
+
+ans:d
+8.  What is Jenkins?
+a. A continuous integration and continuous delivery tool
+b. A software development platform
+c. A project management tool
+d. A bug tracking tool
+
+ans:a
+9. Which programming language is used to write Jenkins?
+a. Java
+b. Python
+c. Ruby
+d. JavaScript
+
+Answer: a
+10. What is the purpose of Jenkins?
+a. To automate the building, testing, and deployment of software
+b. To manage project timelines and resources
+c. To track and manage bugs
+d. To provide a platform for software development
+
+Answer: a
+11. Which of the following is not a core component of Jenkins?
+
+a. Jenkins Master
+b. Jenkins Slave
+c. Jenkins Node
+d. Jenkins Client
+
+Answer: d
+12. What is a Jenkinsfile?
+
+a. A file that defines the build process in Jenkins
+b. A file that contains the code for a Jenkins plugin
+c. A file that contains the Jenkins configuration
+d. A file that contains the results of a Jenkins build
+
+Answer: a
+13. What is a pipeline in Jenkins?
+
+a. A set of plugins that provide additional functionality to Jenkins
+b. A series of automated steps that build, test, and deploy software
+c. A graphical user interface for managing Jenkins
+d. A feature that allows users to create and manage Jenkins jobs
+
+Answer: b
+14.What is the difference between Jenkins Master and Jenkins Slave?
+
+a. Jenkins Master is the central server, while Jenkins Slave is a remote agent
+b. Jenkins Master is responsible for building the software, while Jenkins Slave is responsible for testing it
+c. Jenkins Master is a component of Jenkins, while Jenkins Slave is a separate tool
+d. Jenkins Master is used for local builds, while Jenkins Slave is used for cloud-based builds
+
+Answer: a
+15. Which of the following is not a Jenkins plugin?
+
+a. Git
+b. Maven
+c. Jenkinsfile
+d. Slack
+
+Answer: c
+16. What is the purpose of the Jenkins Build History?
+
+a. To provide a log of the builds that have been performed in Jenkins
+b. To manage the configuration of Jenkins
+c. To generate reports on the status of Jenkins jobs
+d. To enable Jenkins to communicate with external systems
+
+Answer: a
+
+17. What is the Jenkins Job?
+
+a. A configuration file used to define the build process in Jenkins
+b. A script used to define the build process in Jenkins
+c. A plugin that provides additional functionality to Jenkins
+d. A unit of work in Jenkins that performs a specific task
+
+Answer: d
+18. What is the Jenkinsfile?
+
+a. A file used to configure Jenkins plugins
+b. A file used to define a Jenkins Pipeline
+c. A file used to configure Jenkins nodes
+d. A file used to define Jenkins user roles
+
+Answer: b
+19. What is the Jenkins REST API?
+
+a. An interface used to interact with Jenkins via HTTP requests
+b. A tool used to manage the installation of software on Jenkins nodes
+c. A tool used to manage the distribution of work to Jenkins slaves
+d. A graphical user interface used to interact with a Jenkins server
+
+Answer: a
+20. What is the purpose of the Jenkins Security Plugin?
+
+a. To manage the installation of plugins in Jenkins
+b. To manage the distribution of work to Jenkins slaves
+c. To enable Jenkins to communicate with external systems
+d. To manage security settings for Jenkins
+
+Answer: d
+
+
+-------------CO3--------------
+-------------ansible----------
+1. _________________ is something that is used for streamlining the development and deployment process.
+   A. Continuous Delivery
+B. Continuous Integration
+C. Continuous Test
+D. Continuous Intervention
+ans:b
+2. _____________ is a combination of multiple pieces working together to become an automation tool.
+   A. Bugzilla
+B. Chef
+C. Ansible
+D. Git
+ans:c
+3. What are the features of Ansible?
+   A. Unlike puppet or chef there is no software or agent managing the nodes
+B. Passwordless network authentication which makes it more secure and easy to set up
+C. The core concept is to push multiple small codes to the configure and run the action on client nodes
+D. All of the above
+ans:d
+4. IaC stands for?
+   A. Integration as Code
+B. Infra as Code
+C. Infrastructure Ansible Code
+D. Infrastructure as Code
+ans:b
+5. ___________ is a repository of Ansible roles that can be shared among users and can be directly dropped into playbooks for execution.
+   A. Modules
+B. Functions
+C. Galaxy
+D. Standalone
+ans:c
+6. How many types of modules in Ansible?
+   A. 1
+B. 2
+C. 3
+D. 4
+ans:b
+7. YAML or files are like any formatted text file with few sets of rules just like JSON or XML.
+   A. TRUE
+B. FALSE
+C. Can be true or false
+D. Can not say
+ans:a
+8. In Which Language Ansible engine written?
+   A. C
+B. C++
+C. Java
+D. Python
+ans:d
+9. What language is an Ansible playbooks are written in by default ?
+   A. XML
+B. HTML
+C. JSON
+D. YAML
+ans:d
+10. The task is a unit action of Ansible.
+   A. Yes
+B. No
+C. Can be yes or no
+D. Can not say
+ans:a
+11.Which of these is the default location of Ansible?
+    A./usr/share/Ansible
+    B./user/share/Ansible_name
+    C.None of the above
+    D.Both A & B
+ans :a
+12.Ansible offers a paid license option.
+    A.FALSE. 
+    B.TRUE
+ans:a
+13.How to verify current Ansible version?
+    A.yum updateinfo Ansible
+    B.uname -r
+    C.Ansible - - version
+    D.Ansible -version
+ans:c
+14.Ansible is a tool that only runs Linux commands on a large number of servers.
+    A.TRUE
+    B.FALSE
+ans:a
+15.Which of these is an inventory.
+   A.- - vars
+   B.- - export
+   C.All of the above
+   D.- - list
+ans:c
+16.There can be multiple plays in one playbook.
+   A.FALSE
+   B.TRUE
+ans:b
+17.What contains Ansible-plugin documentation.
+   A.Ansible-config
+   B.Ansible-playbook
+   C.Ansible
+   D.Ansible-doc
+ans:d
+18.Which of these actions can be performed with Ansible?
+   A.configuration management
+   B.All of the above 
+   C.deploy an application
+   D.task automation
+ans b
+19.In which Year was Ansible first launched?
+   A.February 2012
+   B.January 2013
+   C.January 2012
+   D.February 2013
+ans:a
+20.What is a YAML file containing one(or more) plays?
+   A.inventory
+   B.task
+   C.Playbook
+   D.module
+ans:c
+
+----------------CO4-------------
+-------------Dockers-------------
+Pairwise sequence alignment involves the matching of
+A) One sequences 
+B) Two sequences
+C) Three sequences
+D) All the above
+ANSWER: B
+Which of the following does not describe local alignment 
+A) A local alignment aligns a substring of the query sequence to a substring of the target sequence
+B) A local alignment is defined by maximizing the alignment score, so that deleting a column from either end would reduce the score, and adding further columns at either end would also reduce the score
+C) Local alignments have terminal gaps
+D) The substrings to be examined may be all of one or both sequences; if all of both are included then the local alignment is also global
+ANSWER: C
+Local alignments are more used when
+A) There are totally similar and equal length sequences
+B) Dissimilar sequences are suspected to contain regions of similarity
+C) Similar sequence motif with larger sequence context
+D) Partially similar, different length and conserved region containing sequences
+ANSWER: A
+All are sequence alignment tools except
+A) Rasmol
+B) BLAST
+C) FASTA
+D) ClustalW
+ANSWER: A
+sequence alignment helps scientist
+A) To trace evolutionary relationships
+B) to infer  the functions of newly synthised gens
+C) to predict new members of gene families
+D) All of these
+ANSWER: D
+Two of the most common methods of clustering gene expression data are hierarchical clustering and k-means clustering
+A) True
+B) False
+ANSWER: B
+is the replacement of a single amino acid in the primary  structure of a protein with another single amino acid, which is accepted by the processes of natural selection.
+A) PAM  
+B) BLOSUM
+C) Pairwise  
+D) Multiple
+ANSWER: A
+locates the pair of genes on the chromosomes.
+A) Map Viewer 
+B) Linkage
+C) Genetic Mapping
+D) All of these 
+ANSWER: B
+Structural bioinformatics is the branch of bioinformatics that is related to the analysis and prediction of the structure of biological macromolecules.
+A) one-dimensional
+B) two-dimensional
+C) three-dimensional
+D) All of the above
+ANSWER: C
+Example of Structural bioinformatics are
+A) proteins
+B) RNA
+C) DNA
+D) All the above
+ANSWER: D
+
+
+------------------------CO4-------------------------------------
+------------------------DOCKER---------------------------
+1. What is Docker?
+a) A programming language
+b) An operating system
+c) A platform for building, shipping, and running applications as containers
+d) A cloud-based storage service
+
+Answer: c) A platform for building, shipping, and running applications as containers
+
+2. What is the purpose of a Dockerfile?
+
+a) To create a Docker image
+b) To run a Docker container
+c) To configure Docker's network settings
+d) To monitor Docker containers
+Answer: a) To create a Docker image
+
+3. How does Docker differ from traditional virtualization?
+a) Docker containers use a hypervisor to run multiple operating systems on a single host
+b) Docker containers share the host's operating system kernel, while traditional virtualization requires a separate kernel for each virtual machine
+c) Docker containers have more overhead than traditional virtual machines
+d) Docker containers are slower than traditional virtual machines
+
+
+4. What is a Docker container?
+a) A read-only template for creating containers
+b) A runnable instance of an image with its own isolated environment
+c) A virtual machine
+d) A database table
+Ans: b) A runnable instance of an image with its own isolated environment
+
+
+5. How is Docker different from virtualization?
+a) Docker containers share the same operating system as the host, while virtual machines have their own operating system
+b) Docker containers are more lightweight and efficient than virtual machines
+c) Docker containers start up and shut down faster than virtual machines
+d) All of the above
+Answer: d) All of the above
+
+6.What is a Docker image?
+a) A blueprint or snapshot of a container
+b) A running instance of a container
+c) A file system for storing Docker files
+d) A cloud storage platform
+Answer: A)  A blueprint or snapshot of a container
+
+
+7. What is the purpose of the --ip flag in the docker run command?
+a) To specify the network mode
+b) To create a new network
+c) To specify the IP address
+d) To set the container name
+
+Answer: c) To specify the IP address
+
+8. What is the purpose of the --link flag in the docker run command?
+a) To specify the network mode
+b) To create a new network
+c) To connect a container to another container
+d) To set the container name
+
+Answer: c) To connect a container to another container
+
+9. Which networking driver is recommended for use with Docker Compose?
+a) Host
+b) Bridge
+c) Overlay
+d) Macvlan
+
+Answer: b) Bridge
+
+10. What is the default network that is created when Docker is installed?
+a) Host
+b) Bridge
+c) Overlay
+d) Macvlan
+
+Answer:b) Bridge
+
+
